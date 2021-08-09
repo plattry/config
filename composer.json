@@ -1,0 +1,29 @@
+{
+    "name": "plattry/config",
+    "description": "The plattry config manager package",
+    "keywords": [
+        "plattry",
+        "config"
+    ],
+    "type": "library",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Plattry\\Config\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "/test/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Andrew Lee",
+            "email": "sixser@foxmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "ext-yaml": "*"
+    }
+}
